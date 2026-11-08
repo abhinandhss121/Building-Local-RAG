@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+.python-version
+
+# Data and DB
+chroma_db/
+data/
+*.txt
+*.pdf
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+desktop.ini

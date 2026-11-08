@@ -1,0 +1,14 @@
+[project]
+name = "personal-rag-assistant"
+version = "0.1.0"
+description = "A local RAG system for document question-answering"
+dependencies = [
+    "ollama",
+    "chromadb",
+    "pypdf",
+    "ipywidgets",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
